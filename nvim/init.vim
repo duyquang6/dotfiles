@@ -458,6 +458,9 @@ noremap <leader>c :bd<CR>
 nnoremap <silent> <leader><space> :noh<cr>
 
 "" Switching windows
+set mouse=a
+noremap <C-w>" <C-w>i
+noremap <C-w>% <C-w>v
 "noremap <C-j> <C-w>j
 "noremap <C-k> <C-w>k
 "noremap <C-l> <C-w>l
