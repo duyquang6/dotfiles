@@ -29,7 +29,7 @@ ikeymap("<C-o>r", "🚀")
 local hop_ok, hop = pcall(require, 'hop')
 if hop_ok then
   local directions = require('hop.hint').HintDirection
-  local modes = { 'n', 'o' }
+  local modes = { 'n', 'o', 'v' }
   local opts = { remap = true, silent = true }
   keymap(modes, 'f', function()
     hop.hint_char1({ direction = directions.AFTER_CURSOR, current_line_only = true })

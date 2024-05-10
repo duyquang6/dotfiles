@@ -25,4 +25,11 @@ lvim.plugins = {
       require("hop").setup { keys = "etovxqpdygfblzhckisuran" }
     end,
   },
+  {
+    "yanskun/gotests.nvim",
+    ft = "go",
+    config = function()
+      require("gotests").setup()
+    end,
+  },
 }
