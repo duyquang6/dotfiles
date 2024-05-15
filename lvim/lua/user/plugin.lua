@@ -32,4 +32,5 @@ lvim.plugins = {
       require("gotests").setup()
     end,
   },
+  { 'projekt0n/github-nvim-theme' }
 }
