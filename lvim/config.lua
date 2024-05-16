@@ -5,7 +5,7 @@
 
 vim.opt.relativenumber = true -- relative line numbers
 lvim.format_on_save.enabled = true
-lvim.colorscheme = "gruvbox-material"
+lvim.colorscheme = "github_dark_colorblind"
 
 reload('user.plugin')
 reload('user.lsp')
