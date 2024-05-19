@@ -20,7 +20,7 @@ local ikeymap = function(from, to, opts)
 end
 
 nkeymap("zs", ":lua require'telescope.builtin'.spell_suggest()<cr>")
-nkeymap("<leader><leader>", "%")
+-- nkeymap("<leader><leader>", "%")
 ikeymap("jj", "<esc>")
 
 -- these are totally unnecessary (except the last one)
