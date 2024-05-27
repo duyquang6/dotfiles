@@ -143,6 +143,8 @@ return {
         "flake8",
         "zls",
         "markdownlint",
+        "goimports",
+        "golangci-lint",
       },
     },
   },
