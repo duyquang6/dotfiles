@@ -4,6 +4,10 @@ return {
     opts = {
       linters_by_ft = {
         go = { "golangcilint" },
+        yaml = { "yamllint" },
+        markdown = { "vale" },
+        lua = { "selene" },
+        fish = { "fish" },
       },
     },
   },
