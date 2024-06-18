@@ -8,6 +8,7 @@ return {
         markdown = { "vale" },
         lua = { "selene" },
         fish = { "fish" },
+        sql = { "sqlfluff" },
       },
     },
   },
