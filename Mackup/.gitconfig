@@ -1,0 +1,6 @@
+[user]
+	email = me@ligt.dev
+[push]
+	autoSetupRemote = true
+[core]
+	editor = nvim

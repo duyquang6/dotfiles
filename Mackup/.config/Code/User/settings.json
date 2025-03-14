@@ -1,0 +1,13 @@
+{
+    "window.titleBarStyle": "custom",
+    "editor.fontFamily": "'Cascadia Code', 'Droid Sans Mono', 'monospace', monospace, 'Symbols Nerd Font Mono'",
+    "update.mode": "none",
+    "dev.containers.defaultFeatures": {
+    },
+    "dev.containers.defaultExtensions": [
+        "eamodio.gitlens",
+        "mutantdino.resourcemonitor"
+    ],
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Gruvbox Dark Hard"
+}

@@ -127,8 +127,8 @@ return {
   { import = "lazyvim.plugins.extras.lang.sql" },
   { import = "lazyvim.plugins.extras.formatting.prettier" },
   { import = "lazyvim.plugins.extras.editor.refactoring" },
-  { import = "lazyvim.plugins.extras.coding.copilot" },
-  { import = "lazyvim.plugins.extras.coding.copilot-chat" },
+  -- { import = "lazyvim.plugins.extras.coding.copilot" },
+  -- { import = "lazyvim.plugins.extras.coding.copilot-chat" },
   { import = "lazyvim.plugins.extras.coding.mini-surround" },
 
   -- { import = "lazyvim.plugins.extras.lang.tailwind" },
