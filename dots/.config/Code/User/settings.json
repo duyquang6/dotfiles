@@ -9,5 +9,6 @@
         "mutantdino.resourcemonitor"
     ],
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Gruvbox Dark Hard"
+    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "dev.containers.dockerPath": "podman"
 }

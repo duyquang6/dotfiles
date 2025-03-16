@@ -104,4 +104,5 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
 source $HOME/me/dotfiles/alias.sh
-export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
+[[ -s /var/home/ligt/.autojump/etc/profile.d/autojump.sh ]] && source /var/home/ligt/.autojump/etc/profile.d/autojump.sh
+export PATH="$PATH:$HOME/.local/bin"

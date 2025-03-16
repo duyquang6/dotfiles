@@ -9,6 +9,7 @@
 -- * disable/enabled LazyVim plugins
 -- * override the configuration of LazyVim plugins
 return {
+	{ import = "lazyvim.plugins.extras.coding.nvim-cmp" },
   -- -- change trouble config
   -- {
   --   "folke/trouble.nvim",
