@@ -106,3 +106,4 @@ source $ZSH/oh-my-zsh.sh
 source $HOME/me/dotfiles/alias.sh
 [[ -s /var/home/ligt/.autojump/etc/profile.d/autojump.sh ]] && source /var/home/ligt/.autojump/etc/profile.d/autojump.sh
 export PATH="$PATH:$HOME/.local/bin"
+export EDITOR=nvim
