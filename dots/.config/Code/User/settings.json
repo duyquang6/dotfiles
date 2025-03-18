@@ -1,6 +1,6 @@
 {
     "window.titleBarStyle": "custom",
-    "editor.fontFamily": "'Cascadia Code', 'Droid Sans Mono', 'monospace', monospace, 'Symbols Nerd Font Mono'",
+    "editor.fontFamily": "'JetBrains Mono Nerd'",
     "update.mode": "none",
     "dev.containers.defaultFeatures": {
     },
@@ -10,5 +10,6 @@
     ],
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Gruvbox Dark Hard",
-    "dev.containers.dockerPath": "podman"
+    "dev.containers.dockerPath": "podman",
+    "terminal.integrated.fontFamily": "monospace"
 }
