@@ -1,92 +1,142 @@
+/* Reset and base styles */
 * {
-  border: none;
-  border-radius: 0;
-  min-height: 0;
-  margin: 0;
-  padding: 0;
-}
-#waybar {
-  background: #1e222a;
-  color: #eeeeef;
-  font-size: 16px;
-  font-family: "Jetbrains Mono";
+    font-family: "JetBrainsMono Nerd Font", monospace; /* JetBrains Mono Nerd Font */
+    font-size: 18px;           /* Your requested size */
+    margin: 0;
+    padding: 0 5;
+    border: none;
 }
 
-#workspaces button {
-  padding: 0 5px;
-  color: #eeeeef;
-}
-/* Fix: active workspace doesn't show up */
-/* #workspaces button.focused { */
-#workspaces button.active {
-  color: #fa5aa4;
+/* Main bar: dark with top-rounded corners */
+window#waybar {
+    background: #1d1f21;       /* Deep charcoal gray */
+    color: #c5c8c6;            /* Soft off-white text */
+    border-radius: 10px 10px 0 0; /* Top-left and top-right rounded, bottom flat */
+    margin: 0 5px 5px 5px;     /* Margin on sides and bottom, flush at top */
 }
 
-#custom-powermenu,
-#cpu,
-#temperature,
-#memory,
-#workspaces,
-#clock,
-#window,
-#pulseaudio,
-#custom-updates,
-#network {
-  padding: 4px 8px;
-  background-color: #303643;
-  border-radius: 30px;
-  margin: 6px 4px;
+/* General module styling with top-rounded corners */
+#clock, #hyprland-workspaces, #hyprland-submap, #sway-scratchpad, #tray,
+#hyprland-window, #idle_inhibitor, #pulseaudio, #network, #power-profiles-daemon,
+#cpu, #memory, #temperature, #backlight, #battery {
+    padding: 0 10px;           /* Adjusted for 16px font */
+    background: #25272a;       /* Slightly lighter than bar */
+    color: #c5c8c6;            /* Consistent text color */
+    border-radius: 8px; /* Top corners rounded, bottom flat */
+    margin: 2px 1px;           /* Small separation */
 }
 
-#window {
-  color: #929db1;
+/* Workspaces: functional and clear */
+#hyprland-workspaces button {
+    padding: 0 8px;            /* Wider for larger font */
+    color: #969896;            /* Muted gray for inactive */
+    background: none;
+    border-radius: 6px 6px 0 0; /* Top corners only */
 }
 
+#hyprland-workspaces button.focused {
+    color: #81a2be;            /* Cool blue for active */
+    background: #2f3235;       /* Subtle highlight */
+}
+
+#hyprland-workspaces button.urgent {
+    color: #cc6666;            /* Soft red for urgent */
+    background: #2a2222;       /* Dark red tint */
+}
+
+#hyprland-workspaces button:hover {
+    background: #373b41;       /* Lighten on hover */
+    color: #c5c8c6;
+}
+
+/* Submap: italic styling */
+#hyprland-submap {
+    font-style: italic;
+    color: #b294bb;            /* Gentle purple */
+}
+
+/* Scratchpad: icon and count */
+#sway-scratchpad {
+    color: #8abeb7;            /* Teal for visibility */
+}
+
+/* Tray: simple */
 #tray {
-  margin-left: 4px;
+    padding: 0 5px;            /* Matches your 5px spacing */
 }
 
-#custom-updates {
-  color: #1788e4;
+/* Window title: center module */
+#hyprland-window {
+    color: #de935f;            /* Warm orange */
 }
 
-#custom-powermenu {
-  color: #e06c75;
-  padding-right: 11px;
-  margin-right: 8px;
+/* Idle inhibitor: icon-based */
+#idle_inhibitor {
+    color: #f0c674;            /* Yellowish */
 }
 
-#scratchpad {
-  color: #cffafe;
-  padding-right: 4px;
-  padding-left: 4px;
+#idle_inhibitor.activated {
+    color: #b5bd68;            /* Green when active */
 }
 
+/* Pulseaudio: volume and source */
 #pulseaudio {
-  color: #0fb9b1;
-  padding-right: 14px;
+    color: #8cc1d9;            /* Soft cyan */
 }
 
+#pulseaudio.muted {
+    color: #a54242;            /* Muted red */
+}
+
+/* Network: wifi/ethernet status */
+#network {
+    color: #b294bb;            /* Purple */
+}
+
+#network.disconnected {
+    color: #cc6666;            /* Red for disconnect */
+}
+
+/* Power profiles: icon-based */
+#power-profiles-daemon {
+    color: #f0c674;            /* Yellow */
+}
+
+/* CPU, Memory, Temperature: system stats */
 #cpu {
-  color: #61afef;
-}
-
-#temperature {
-  color: #98c379;
+    color: #b5bd68;            /* Green */
 }
 
 #memory {
-  color: #e5c07b;
+    color: #81a2be;            /* Blue */
 }
 
-#network {
-  color: #c678dd;
-  min-width: 200px;
+#temperature {
+    color: #de935f;            /* Orange */
 }
 
-#clock {
-  color: #fff;
-  margin-left: 8px;
-  /* opacity: 0.7; */
-  /* font-size: 18px; */
+#temperature.critical {
+    color: #cc6666;            /* Red for critical */
+}
+
+/* Backlight: brightness */
+#backlight {
+    color: #c5c8c6;            /* Neutral gray */
+}
+
+/* Battery: status with states */
+#battery {
+    color: #8abeb7;            /* Teal */
+}
+
+#battery.charging, #battery.plugged {
+    color: #b5bd68;            /* Green when charging */
+}
+
+#battery.warning {
+    color: #f0c674;            /* Yellow at 30% */
+}
+
+#battery.critical {
+    color: #cc6666;            /* Red at 15% */
 }
