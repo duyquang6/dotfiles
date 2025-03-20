@@ -1,7 +1,7 @@
 /* Reset and base styles */
 * {
     font-family: "JetBrainsMono Nerd Font", monospace; /* JetBrains Mono Nerd Font */
-    font-size: 18px;           /* Your requested size */
+    font-size: 16px;           /* Your requested size */
     margin: 0;
     padding: 0 5;
     border: none;
