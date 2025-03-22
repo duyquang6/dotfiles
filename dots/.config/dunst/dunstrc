@@ -14,7 +14,7 @@ offset = (15, 25)
 gap_size = 5
 format = "<b>󰁕 %a</b>\n%s\n<i>%b</i>"
 origin = top-center
-font = JetBrains Mono 10
+font = JetBrainsMono Nerd Font 10
 
 [urgency_low]
 foreground = "#a6e3a1"

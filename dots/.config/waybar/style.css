@@ -16,8 +16,8 @@ window#waybar {
 }
 
 /* General module styling with top-rounded corners */
-#clock, #hyprland-workspaces, #hyprland-submap, #sway-scratchpad, #tray,
-#hyprland-window, #idle_inhibitor, #pulseaudio, #network, #power-profiles-daemon,
+#clock, # #submap, #scratchpad, #tray,
+#window, #idle_inhibitor, #pulseaudio, #network, #power-profiles-daemon,
 #cpu, #memory, #temperature, #backlight, #battery {
     padding: 0 10px;           /* Adjusted for 16px font */
     background: #25272a;       /* Slightly lighter than bar */
@@ -27,30 +27,30 @@ window#waybar {
 }
 
 /* Workspaces: functional and clear */
-#hyprland-workspaces button {
+#workspaces button {
     padding: 0 8px;            /* Wider for larger font */
     color: #969896;            /* Muted gray for inactive */
     background: none;
     border-radius: 6px 6px 0 0; /* Top corners only */
 }
 
-#hyprland-workspaces button.focused {
+#workspaces button.active {
     color: #81a2be;            /* Cool blue for active */
     background: #2f3235;       /* Subtle highlight */
 }
 
-#hyprland-workspaces button.urgent {
+#workspaces button.urgent {
     color: #cc6666;            /* Soft red for urgent */
     background: #2a2222;       /* Dark red tint */
 }
 
-#hyprland-workspaces button:hover {
+#workspaces button:hover {
     background: #373b41;       /* Lighten on hover */
     color: #c5c8c6;
 }
 
 /* Submap: italic styling */
-#hyprland-submap {
+#submap {
     font-style: italic;
     color: #b294bb;            /* Gentle purple */
 }
@@ -63,11 +63,6 @@ window#waybar {
 /* Tray: simple */
 #tray {
     padding: 0 5px;            /* Matches your 5px spacing */
-}
-
-/* Window title: center module */
-#hyprland-window {
-    color: #de935f;            /* Warm orange */
 }
 
 /* Idle inhibitor: icon-based */
