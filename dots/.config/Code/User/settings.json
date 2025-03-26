@@ -1,6 +1,6 @@
 {
     "window.titleBarStyle": "custom",
-    "editor.fontFamily": "'JetBrains Mono Nerd'",
+    "editor.fontFamily": "'JetBrainsMono Nerd Font'",
     "update.mode": "none",
     "dev.containers.defaultFeatures": {
     },
@@ -11,6 +11,13 @@
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Night Owl",
     "dev.containers.dockerPath": "podman",
-    "terminal.integrated.fontFamily": "monospace",
-    "files.autoSave": "afterDelay"
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "git.autofetch": true,
+    "terminal.integrated.defaultProfile.linux": "zsh"
 }
