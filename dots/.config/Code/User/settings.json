@@ -9,7 +9,7 @@
         "mutantdino.resourcemonitor"
     ],
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Night Owl",
+    "workbench.colorTheme": "Gruvbox Light Medium",
     "dev.containers.dockerPath": "podman",
     "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
     "github.copilot.enable": {
@@ -19,5 +19,6 @@
         "scminput": false
     },
     "git.autofetch": true,
-    "terminal.integrated.defaultProfile.linux": "zsh"
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "makefile.configureOnOpen": true
 }
