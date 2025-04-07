@@ -113,6 +113,7 @@ source $ZSH/oh-my-zsh.sh
 source $HOME/me/dotfiles/alias.sh
 [[ -s /var/home/ligt/.autojump/etc/profile.d/autojump.sh ]] && source /var/home/ligt/.autojump/etc/profile.d/autojump.sh
 export PATH="$PATH:$HOME/.local/bin"
+export PATH="$PATH:$HOME/go/bin"
 export EDITOR=nvim
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.

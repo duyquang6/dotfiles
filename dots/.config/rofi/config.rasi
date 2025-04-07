@@ -5,4 +5,8 @@
 
 //@theme "/usr/share/rofi/themes/Monokai.rasi"
 
-@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
+//@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
+
+//@theme "/usr/share/rofi/themes/gruvbox-light.rasi"
+
+@theme "/usr/share/rofi/themes/sidebar.rasi"

@@ -1,6 +1,16 @@
 [user]
 	email = me@ligt.dev
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJNpxupT/S/jPYZxM2+CJ7mM4klyV8mRsMqmq9fxvp3w
 [push]
 	autoSetupRemote = true
 [core]
 	editor = nvim
+
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /opt/1Password/op-ssh-sign
+[commit]
+	gpgsign = true

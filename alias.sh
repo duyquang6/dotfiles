@@ -7,6 +7,7 @@ alias sync-gcs=$(pwd)/scripts/sync-gcs.sh
 alias lg='lazygit'
 alias de='distrobox enter'
 alias dea='distrobox enter -n bazzite-arch -- zsh'
+alias docker='podman'
 # alias devcontainer='distrobox-enter -- devcontainer'
 # alias kubectl='distrobox-enter -- kubectl'
 # alias gcloud='distrobox-enter -- gcloud'
